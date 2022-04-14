@@ -6,7 +6,6 @@ Feature: Articles
     * url apiUrlLocalhost
 
 
-
   Scenario: Sign in with user and create random article name
     * path 'users/login'
     * request {"user": {"email": "test12user@test.com", "password": "test12user"}}

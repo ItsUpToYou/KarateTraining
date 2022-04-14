@@ -1,5 +1,5 @@
-
 Feature: Test for home page
+
   Background:
     * url apiUrlLocalhost
 
@@ -14,15 +14,15 @@ Feature: Test for home page
     And match each response.tags == "##string"
 
 
-    Scenario: Get  articles from the page
-      Given params {limit: 10, offset: 0}
-      Given path 'articles'
-      When method Get
-      Then status 200
-      And match response.articles == '#[3]'
-      And match response.articlesCount == 3
-      And match response == {"articles" : '#array', "articlesCount" : 3}
-      And match response.articles[0].createdAt contains '2021'
-      And match response.articles[*].favoritesCount !contains [0]
-      And match response..bio contains null
-      And match each response..following == false
+  Scenario: Get  articles from the page
+    Given params {limit: 10, offset: 0}
+    Given path 'articles'
+    When method Get
+    Then status 200
+    And match response.articles == '#[3]'
+    And match response.articlesCount == 3
+    And match response == {"articles" : '#array', "articlesCount" : 3}
+    And match response.articles[0].createdAt contains '2021'
+    And match response.articles[*].favoritesCount !contains [0]
+    And match response..bio contains null
+    And match each response..following == false
