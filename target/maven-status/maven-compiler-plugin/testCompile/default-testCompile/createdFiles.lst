@@ -1,0 +1,4 @@
+com\karate\helpers\DataGenerator.class
+com\karate\helpers\DbHandler.class
+com\karate\feature\test.class
+com\karate\KarateRunnerTest.class

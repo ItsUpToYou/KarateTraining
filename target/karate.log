@@ -1,0 +1,15 @@
+09:13:26.767 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:13:26.859 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+09:13:27.685 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 5: classpath:com/karate/feature/WorkWithDb.feature
+09:22:21.659 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:22:21.758 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+09:22:22.593 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 
+09:22:22.629 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 5: classpath:com/karate/feature/WorkWithDb.feature
+09:24:44.008 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:24:44.107 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+09:24:44.989 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 
+09:24:45.017 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 5: classpath:com/karate/feature/WorkWithDb.feature
+09:26:00.096 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:26:00.190 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+09:26:01.035 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 11
+09:26:01.046 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 5: classpath:com/karate/feature/WorkWithDb.feature

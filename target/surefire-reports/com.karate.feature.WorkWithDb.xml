@@ -1,0 +1,7 @@
+<testsuite failures="0" name="com/karate/feature/WorkWithDb.feature" skipped="0" tests="1" time="0.768776">
+  <testcase classname="com.karate.feature.WorkWithDb" name="Give the total price by name" time="0.768776">
+    <system-out>* def dbHandler = Java.type('com.karate.helpers.DbHandler') ............... passed
+* def name = dbHandler.readTotalPrice("Qa2") .............................. passed
+* print name.totalprice ................................................... passed</system-out>
+  </testcase>
+</testsuite>
